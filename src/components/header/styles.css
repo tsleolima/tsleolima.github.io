@@ -1,0 +1,45 @@
+.App-header {
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e9d5a1;
+  min-height: 90vh;
+  color: white;
+}
+
+.header-name {
+  font-size: 250%;
+  text-align: center;
+  font-weight: 600 !important;
+  color: #353239;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0px;
+  margin-top: -10px;
+}
+
+.computer-icon {
+  height: 150px;
+  width: 150px;
+  color: #212529;
+}
+
+.github-header {
+  margin-bottom: 200px;
+}
+
+.title-styles {
+  font-family: "Raleway", sans-serif;
+  font-size: 100%;
+  color: #353239;
+}
+
+.middle-header {
+  min-height: 50vh;
+}
+
+.flag-icon {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+}
