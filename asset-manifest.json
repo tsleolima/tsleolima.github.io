@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/tsleolima/tsleolima.github.io/static/css/main.ea1da492.css",
-    "main.js": "/tsleolima/tsleolima.github.io/static/js/main.0d224e2a.js",
-    "static/js/787.86e70ff7.chunk.js": "/tsleolima/tsleolima.github.io/static/js/787.86e70ff7.chunk.js",
-    "static/media/perfil.jpeg": "/tsleolima/tsleolima.github.io/static/media/perfil.a2bade52f752b68941b5.jpeg",
-    "static/media/united_states_icon.svg": "/tsleolima/tsleolima.github.io/static/media/united_states_icon.2f3b377625134be6b78b204a50381dee.svg",
-    "static/media/react_icon.svg": "/tsleolima/tsleolima.github.io/static/media/react_icon.236043ffaad881b485edd3944df7fcef.svg",
-    "static/media/brazil_icon.svg": "/tsleolima/tsleolima.github.io/static/media/brazil_icon.ff409d01ab4c020914420622d292c696.svg",
-    "index.html": "/tsleolima/tsleolima.github.io/index.html",
-    "static/media/github_icon.svg": "/tsleolima/tsleolima.github.io/static/media/github_icon.fbecc762a5fdce03e14d185dd09bb862.svg",
-    "static/media/computer_icon.svg": "/tsleolima/tsleolima.github.io/static/media/computer_icon.f7cd08b172cc800c52a0ea8ebf2c60b0.svg",
-    "static/media/circle_icon.svg": "/tsleolima/tsleolima.github.io/static/media/circle_icon.8ab564acc48d75ece3ddbfdb8d1f96e6.svg",
-    "main.ea1da492.css.map": "/tsleolima/tsleolima.github.io/static/css/main.ea1da492.css.map",
-    "main.0d224e2a.js.map": "/tsleolima/tsleolima.github.io/static/js/main.0d224e2a.js.map",
-    "787.86e70ff7.chunk.js.map": "/tsleolima/tsleolima.github.io/static/js/787.86e70ff7.chunk.js.map"
+    "main.css": "/static/css/main.ea1da492.css",
+    "main.js": "/static/js/main.61e512bf.js",
+    "static/js/787.86e70ff7.chunk.js": "/static/js/787.86e70ff7.chunk.js",
+    "static/media/perfil.jpeg": "/static/media/perfil.a2bade52f752b68941b5.jpeg",
+    "static/media/united_states_icon.svg": "/static/media/united_states_icon.e5ccd89653beac195e25f4df8fc1d254.svg",
+    "static/media/react_icon.svg": "/static/media/react_icon.236043ffaad881b485edd3944df7fcef.svg",
+    "index.html": "/index.html",
+    "static/media/brazil_icon.svg": "/static/media/brazil_icon.b96a922a710e19ea3530fe98aaba3e90.svg",
+    "static/media/github_icon.svg": "/static/media/github_icon.fbecc762a5fdce03e14d185dd09bb862.svg",
+    "static/media/computer_icon.svg": "/static/media/computer_icon.f7cd08b172cc800c52a0ea8ebf2c60b0.svg",
+    "static/media/circle_icon.svg": "/static/media/circle_icon.8ab564acc48d75ece3ddbfdb8d1f96e6.svg",
+    "main.ea1da492.css.map": "/static/css/main.ea1da492.css.map",
+    "main.61e512bf.js.map": "/static/js/main.61e512bf.js.map",
+    "787.86e70ff7.chunk.js.map": "/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea1da492.css",
-    "static/js/main.0d224e2a.js"
+    "static/js/main.61e512bf.js"
   ]
 }
