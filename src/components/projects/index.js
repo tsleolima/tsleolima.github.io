@@ -11,34 +11,10 @@ function Projects() {
         <div className="card-project">
           <img
             className="project-image"
-            src="https://dorota1997.github.io/react-frontend-dev-portfolio/images/portfolio/animal-shelter/p1.jpg"
-            alt="primeiro projeto"
+            src="https://medium.com/@miraxe/eda-seattle-houses-air-bnb-bussines-questions-6e8501df82eb"
+            alt="EDA - Seattle Houses AirBnb - Bussines Questions"
           />
-          <p className="project-title">ANIMAL SHELTER</p>
-        </div>
-        <div className="card-project">
-          <img
-            className="project-image"
-            src="https://dorota1997.github.io/react-frontend-dev-portfolio/images/portfolio/animal-shelter/p1.jpg"
-            alt="primeiro projeto"
-          />
-          <p className="project-title">ANIMAL SHELTER</p>
-        </div>
-        <div className="card-project">
-          <img
-            className="project-image"
-            src="https://dorota1997.github.io/react-frontend-dev-portfolio/images/portfolio/animal-shelter/p1.jpg"
-            alt="primeiro projeto"
-          />
-          <p className="project-title">ANIMAL SHELTER</p>
-        </div>
-        <div className="card-project">
-          <img
-            className="project-image"
-            src="https://dorota1997.github.io/react-frontend-dev-portfolio/images/portfolio/animal-shelter/p1.jpg"
-            alt="primeiro projeto"
-          />
-          <p className="project-title">ANIMAL SHELTER</p>
+          <p className="project-title">EDA - Seattle Houses AirBnb - Bussines Questions</p>
         </div>
       </div>
     </section>
