@@ -1,12 +1,13 @@
 import "./styles.css";
 import React from "react";
-import { ReactComponent as ComputerIcon } from "../../assets/computer_icon.svg";
 import { ReactComponent as GithubIcon } from "../../assets/github_icon.svg";
 import { ReactComponent as BRFlagIcon } from "../../assets/brazil_icon.svg";
 import { ReactComponent as USAFlagIcon } from "../../assets/united_states_icon.svg";
 import Typical from "react-typical";
+import { dictionary } from "../../strings/strings";
+import computerImage from "../../assets/computer.png";
 
-function Header() {
+function Header({setLanguage}) {
   const titles = [
     "MOBILE DEVELOPER",
     1000,
@@ -38,15 +39,16 @@ function Header() {
         </a>
       </div>
       <div className="middle-header">
-        <ComputerIcon alt="computer icon" className="computer-icon" />
-        <p className="header-name">Leonardo Lima</p>
+        <img src={computerImage} className="computer-icon" alt="Imagem de um computador"/>
+        <p className="header-name">LEONARDO</p>
+        <p className="header-name-sub">LIMA FELIX DA SILVA</p>
         <div className="title-container">
           <HeaderTitleTypeAnimation />
         </div>
       </div>
       <div>
-        <BRFlagIcon alt="brazil flag" className="flag-icon" />
-        <USAFlagIcon alt="united states flag" className="flag-icon" />
+        <BRFlagIcon alt="brazil flag" className="flag-icon" onClick={() => {setLanguage(dictionary.br)}}/>
+        <USAFlagIcon alt="united states flag" className="flag-icon" onClick={() => {setLanguage(dictionary.us)}}/>
       </div>
     </header>
   );

@@ -1,26 +1,30 @@
 import "./styles.css";
 import React from "react";
-import { ReactComponent as ReactIcon } from "../../assets/react_icon.svg";
 import { ReactComponent as CircleIcon } from "../../assets/circle_icon.svg";
-import MyPicture from "../../assets/perfil.jpeg";
+import MyPicture from "../../assets/perfil.jpg";
+import Python from "../../assets/python.png";
+import Juyter from "../../assets/juyter.png";
+import Scikit from "../../assets/scikit-learn.png";
 
-function About() {
+function About({language}) {
   return (
     <section className="about">
       <h1 className="about-name">
-        <span>SOBRE MIM</span>
+        <span>{language.About}</span>
       </h1>
       <div className="details">
         <div className="photograph">
           <img
             className="pic"
-            height="250px"
+            height="300px"
             src={MyPicture}
             alt="my photograph"
           />
-          <ReactIcon alt="react icon" className="tech-icon" />
-          <ReactIcon alt="react icon" className="tech-icon" />
-          <ReactIcon alt="react icon" className="tech-icon" />
+          <div className="tech-div">
+          <img src={Python} alt="python icon" className="tech-icon" />
+          <img src={Juyter} alt="jupyter icon" className="tech-icon" />
+          <img src={Scikit} alt="scikitlearn icon" className="tech-icon" />
+          </div>
         </div>
         <div className="card">
           <div className="header-card">
@@ -42,14 +46,10 @@ function About() {
           </div>
           <div className="internal-card">
             <br />
-            <span className="hi">Hi :)</span>
+            <span className="hi">{language.hi}</span>
             <br />
             <br />
-            Hi :) 👋 I'm Davina Griss. Fictional person for preview purposes :)
-            I'm working with newest front-end frameworks like Angular, React and
-            Vue. What you are seeing now is portfolio template from Dorota1997.
-            If you like this portfolio template, make sure to ⭐ the repository
-            to make it more recognizable for other users. Thank you 💜
+            {language.bio}
           </div>
         </div>
       </div>

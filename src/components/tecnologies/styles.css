@@ -4,6 +4,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .skills {
@@ -18,9 +19,21 @@
   margin: 0px;
   padding-top: 4%;
   padding-bottom: 4%;
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px "raleway", sans-serif;
+  font-weight: bolder;
   text-transform: uppercase;
   letter-spacing: 3px;
+  color: #fff;
+  text-align: center;
+}
+
+.skill-name-subtitle {
+  margin: 0px;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font: 10px/15px "raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   color: #fff;
   text-align: center;
 }

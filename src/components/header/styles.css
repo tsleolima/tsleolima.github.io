@@ -1,37 +1,77 @@
 .App-header {
-  height: 590px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #e9d5a1;
+  background-color: #373132;
   min-height: 90vh;
   color: white;
+  background-image: url('../../assets/CAPA.png');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
 
 .header-name {
-  font-size: 250%;
+  font-size: 450%;
   text-align: center;
-  font-weight: 600 !important;
-  color: #353239;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  color: #E0A060;
+  font-family: "Raleway", sans-serif;
   margin: 0px;
-  margin-top: -10px;
+  margin-top: 0px;
+}
+
+.header-name-sub {
+  font-size: 220%;
+  text-align: center;
+  font-weight: 100;
+  font-weight: bold;
+  color: #EDDCC8;
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+  margin-top: -15px;
 }
 
 .computer-icon {
-  height: 150px;
-  width: 150px;
+  height: 300px;
   color: #212529;
-}
-
-.github-header {
-  margin-bottom: 200px;
+  margin-bottom: -30px;
 }
 
 .title-styles {
   font-family: "Raleway", sans-serif;
-  font-size: 100%;
-  color: #353239;
+  font-size: 120%;
+  color: #EDDCC8;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+
+
+@media only screen and (max-width: 875px) {
+  .header-name {
+    font-size: 200%;
+  }
+  
+  .header-name-sub {
+    font-size: 100%;
+    margin-top: 0px;
+  }
+
+  .computer-icon {
+    height: 180px;
+    color: #212529;
+    margin-bottom: -20px;
+  }
+  .title-styles {
+    font-size: 80%;
+    color: #EDDCC8;
+    font-weight: lighter;
+    margin-top: 5px;
+  }
+}
+
+.github-header {
+  margin-bottom: 200px;
 }
 
 .middle-header {

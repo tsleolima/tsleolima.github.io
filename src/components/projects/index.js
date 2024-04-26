@@ -1,21 +1,23 @@
 import React from "react";
 import "./styles.css";
 
-function Projects() {
+function Projects({language, projects}) {
+
+
   return (
     <section className="projects">
       <h1 className="project-name">
-        <span>PROJETOS</span>
+        <span>{language.projects}</span>
       </h1>
       <div className="projects-cards">
-        <div className="card-project">
-          <img
-            className="project-image"
-            src="https://medium.com/@miraxe/eda-seattle-houses-air-bnb-bussines-questions-6e8501df82eb"
-            alt="EDA - Seattle Houses AirBnb - Bussines Questions"
-          />
-          <p className="project-title">EDA - Seattle Houses AirBnb - Bussines Questions</p>
+        {projects.map((project, index) => (
+        <div key={index} className="card-project">
+          <p onClick={() => {
+              console.log('asokasko');
+              window.open(project.url, '_blank')
+            }} className="project-title">{project.name}</p>
         </div>
+        ))}
       </div>
     </section>
   );

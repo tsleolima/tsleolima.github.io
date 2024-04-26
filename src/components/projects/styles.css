@@ -14,9 +14,10 @@
   margin: 0px;
   padding-top: 3%;
   padding-bottom: 3%;
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px "raleway", sans-serif;
+  font-weight: bolder;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 3px; 
   color: #000;
   text-align: center;
 }
@@ -34,6 +35,7 @@
   position: relative;
   cursor: pointer;
   margin-bottom: 15px;
+  width: 250px;
 }
 
 .card-project:hover {
@@ -44,8 +46,9 @@
 
 .project-title {
   margin-top: 5%;
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px "raleway", sans-serif;
   text-transform: uppercase;
+  font-weight: lighter;
   letter-spacing: 3px;
   color: #000;
   text-align: center;
