@@ -1,8 +1,15 @@
 import React from "react";
 import "./styles.css";
 
-function Projects({language, projects}) {
+function Projects({language}) {
 
+  const projects = [
+    {
+      url: "https://medium.com/@miraxe/eda-seattle-houses-air-bnb-bussines-questions-6e8501df82eb",
+      alt: "EDA - Seattle Houses AirBnb - Bussines Questions",
+      name: "EDA - Seattle Houses AirBnb - Bussines Questions"
+    },
+  ];
 
   return (
     <section className="projects">

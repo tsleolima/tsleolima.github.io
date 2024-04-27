@@ -1,7 +1,12 @@
 import React from "react";
 import "./styles.css";
 
-function Experience({ language, experiences }) {
+function Experience({ language }) {
+
+  console.log(language)
+
+  const experiences = language.experiences
+
   return (
     <section className="experience">
       <h1 className="project-name">
@@ -12,12 +17,12 @@ function Experience({ language, experiences }) {
           <div key={i} className="card-experience">
             <div className="badge">
               <p className="badge-name" key={i}>
-                {e.experience_name}
+                {e.name}
               </p>
             </div>
-            <p className="names">{e.experience_name}</p>
-            <p className="sub-names">{e.experience_details}</p>
-            <p className="sub-sub-desc">{e.experience_description}</p>
+            <p className="names">{e.name}</p>
+            <p className="sub-names">{e.details}</p>
+            <p className="sub-sub-desc">{e.description}</p>
             <div className="keywords">
               {e.keywords.map((k, j) => (
                 <span className="keyword-name" key={j}>
