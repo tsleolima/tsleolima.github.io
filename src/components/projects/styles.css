@@ -24,7 +24,9 @@
 
 .card-project {
   background: #fff;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 1% 5px;
   padding: 10px 10px 5px;
   text-align: center;
@@ -36,6 +38,7 @@
   cursor: pointer;
   margin-bottom: 15px;
   width: 250px;
+  height: 150px;
 }
 
 .card-project:hover {

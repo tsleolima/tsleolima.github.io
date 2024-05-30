@@ -6,6 +6,7 @@ let dictionary = {
         projects: "PROJECTS",
         tech: "SKILLS",
         more: "MAIS: SCIKIT-LEARN, MATPLOTLIB, SEABORN, PYTEST.",
+        experience_title: "EXPERIENCE",
         experiences: [
             {
                 description: `Participation in a project to identify legislative matters of interest to the bank, involving data scraping from the Chamber and Senate websites, data exploration, modeling, implementation, and iterative validation. 
@@ -60,6 +61,7 @@ let dictionary = {
         projects: "PROJETOS",
         tech: "TECNOLOGIAS",
         more: "MAIS: SCIKIT-LEARN, MATPLOTLIB, SEABORN, PYTEST.",
+        experience_title: "EXPERIÊNCIA",
         experiences: [
             {
                 description: `Participação em um projeto para identificar questões legislativas de interesse para o banco, envolvendo raspagem de dados dos sites da Câmara e do Senado, exploração de dados, modelagem, implementação e validação iterativa.

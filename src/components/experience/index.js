@@ -10,7 +10,7 @@ function Experience({ language }) {
   return (
     <section className="experience">
       <h1 className="project-name">
-        <span>{language.experience}</span>
+        <span>{language.experience_title}</span>
       </h1>
       <div className="timeline">
         {experiences.map((e, i) => (
